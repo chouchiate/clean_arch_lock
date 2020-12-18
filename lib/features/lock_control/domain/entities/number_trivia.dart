@@ -1,7 +1,7 @@
 import 'package:equatable/equatable.dart';
 
-import 'package:equatable/equatable.dart'
-import 'package:meta/meta.dart'
+import 'package:equatable/equatable.dart';
+import 'package:meta/meta.dart';
 
 class NumberTrivia extends Equatable {
   final String text;
@@ -11,5 +11,4 @@ class NumberTrivia extends Equatable {
     @required this.text,
     @required this.number,
   }) : super([text, number]);
-
 }
